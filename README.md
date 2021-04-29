@@ -1,23 +1,23 @@
 # wheather-app
 
-> A Vue.js project
+> Un proyecto interesante
 
-## Build Setup
+## Comandos que fueron ejecutados para crear el proyecto
 
 ``` bash
-# install dependencies
-npm install
+# instalar vue-cli
+npm install -g @vue/cli
 
-# serve with hot reload at localhost:8080
+# Dentro de la carpeta corre el siguiente comando seguido del nombre del proyecto
+vue init webpack-simple wheather-app
+
+# Dentro de la carpeta del proyecto recién creado, correr estos dos comandos
+npm install 
 npm run dev
-
-# build for production with minification
-npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
 ## Proceso para ejecutar este código en un ambiente local
-### 1 Primero copiar este código en una carpeta, se puede hace el pull desde [aquí]()
-### 2 Segundo abrir un terminal dentro de la carpeta wheather-app y correr el comando npm run dev
+### 1 Primero copiar este código en una carpeta. Puedes clonar o descargar el código [aquí](https://github.com/willykun/app-weather)
+### 2 Segundo abrir un terminal dentro de la carpeta wheather-app y correr el comando **npm install** y luego **npm run dev**
 ### 3 Se debe abrir el navegador con la siguiente URL http://localhost:8080
+### 4 Listo 
